@@ -1,5 +1,4 @@
-# tmux_toolbox_play_nice
-
+# TMUX config to accomodate Toolbx
 ## What is the issue?
 Tmux is not aware if it is run from inside a Toolbx container. Ideally, if you are inside of a container and run tmux, the new session should be inside the container. This is not always the case. This script fixes (I hope) the issue.
 
